@@ -22,7 +22,7 @@ const customScrollbarPlugin = function ({ addUtilities }) {
 module.exports = {
   content: [
     "./index.html",
-    "./src/**/*.{vue,js,ts,jsx,tsx}",
+    "./{src,modules}/**/*.{vue,js,ts,jsx,tsx}",
   ],
   theme: {
     extend: {
