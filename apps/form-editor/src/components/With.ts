@@ -1,0 +1,1 @@
+export default (props: any, { slots }: { slots: any }) => slots.default({ ...props });
