@@ -13,6 +13,9 @@ import router from './router'
 // register tailwind css
 import './assets/main.css'
 
+// load modules
+import "../modules"
+
 const app = createApp(App)
 
 // add pinia stores

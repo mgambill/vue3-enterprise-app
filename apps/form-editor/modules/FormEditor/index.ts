@@ -1,6 +1,7 @@
 import { defineModule } from '@nmyvision/fresca'
 import IndexView from './views/Index.vue'
-defineModule({
+
+export default defineModule({
   name: 'form-editor',
   routes: [
     {
