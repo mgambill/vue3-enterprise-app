@@ -1,4 +1,5 @@
 import { createRouter, createWebHistory } from 'vue-router'
+import { registerModuleRoutes } from '@nmyvision/fresca'
 import HomeView from '../views/HomeView.vue'
 
 const router = createRouter({
@@ -23,5 +24,8 @@ const router = createRouter({
     }
   ]
 })
+
+
+registerModuleRoutes(router)
 
 export default router
